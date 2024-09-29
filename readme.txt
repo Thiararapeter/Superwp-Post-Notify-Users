@@ -3,7 +3,7 @@ Contributors: Thiarara
 Tags: notifications, email, user roles, post types, WordPress
 Requires at least: 5.0
 Tested up to: 6.6
-Stable tag: 1.0.11
+Stable tag: 1.0.12
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Donate link: https://www.example.com/donate
@@ -13,58 +13,64 @@ Author URI: https://profiles.wordpress.org/thiarara/
 
 == Description ==
 
-**Superwp Post Notify Users** notifies users with specified roles when a new or edited post is published. You can specify user roles, post types, customize email content, subject, and schedule notifications.
+**Superwp Post Notify Users** automatically notifies users with specified roles whenever a post is published or updated. You can select which user roles to notify, choose relevant post types, and customize the email notifications.
 
 == Features ==
 
-- User Role Notifications: Notify users based on specific WordPress roles (e.g., Editor, Author).
-- Post Type Selection: Choose which post types to monitor for notifications (e.g., Posts, Pages).
-- Customizable Email Content: Tailor the subject and body of the notification emails.
-- Scheduled Notifications: Set a schedule for when notifications should be sent after a post is published or updated.
-- Multi-Language Support: Translations available in the `languages` directory.
-- User-Friendly Interface: Easy-to-use settings page within the WordPress admin area.
-- Regular Updates: The plugin is actively maintained with regular updates and improvements.
+- **User Role Notifications**: Select specific WordPress user roles (e.g., Editor, Subscriber) to receive notifications.
+- **Post Type Selection**: Control notifications based on post types (e.g., Posts, Pages, or custom post types).
+- **Custom Email Content**: Personalize the subject and body of notification emails.
+- **Scheduled Notifications**: Set delays for when notifications should be sent after publishing or editing posts.
+- **Multi-Language Support**: Available translations in the `languages` folder.
+- **User-Friendly Settings**: Easy configuration from the plugin's settings page in WordPress admin.
+- **Regular Updates**: Actively maintained with frequent updates and enhancements.
 
 == Installation ==
 
-1. Upload the `superwp-post-notify-users` directory to the `/wp-content/plugins/` directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to the plugin settings page to configure your notification preferences.
+1. Upload the `superwp-post-notify-users` directory to `/wp-content/plugins/`.
+2. Activate the plugin via the 'Plugins' menu in WordPress.
+3. Go to **Settings** > **Superwp Post Notify Users** to configure your preferences.
 
 == Usage ==
 
-1. After activation, navigate to **Settings** > **Superwp Post Notify Users** in your WordPress dashboard.
-2. Select the user roles you want to notify.
-3. Choose the post types for which notifications should be sent.
-4. Customize the email subject and content.
-5. Schedule notifications as desired.
-6. Save your settings.
+1. After activation, go to **Settings** > **Superwp Post Notify Users**.
+2. Select the user roles that will receive notifications.
+3. Choose the post types for notification triggers.
+4. Customize the email subject and content to your liking.
+5. Set up a schedule for sending notifications.
+6. Save your settings and you're all set.
 
 == Frequently Asked Questions (FAQs) ==
 
-Q: Can I notify multiple user roles?  
-A: Yes, you can select multiple user roles to receive notifications.
+**Q: Can I notify multiple user roles?**  
+A: Yes, you can select as many user roles as needed.
 
-Q: Is it possible to customize the email subject?  
-A: Absolutely! You can customize the subject and body of the notification emails in the settings.
+**Q: Can I customize the notification emails?**  
+A: Definitely! You can fully customize the subject and content of the notification emails.
 
-Q: What post types can I notify users about?  
-A: You can select any post type registered in your WordPress site, including custom post types.
+**Q: What post types are supported?**  
+A: You can notify users about any registered post type, including custom post types.
 
 == Changelog ==
 
-= 1.0.7 =
-* Added the ability to select multiple user roles for notifications.
-* Introduced customizable email content and subject lines.
-* Improved the scheduling feature for sending notifications.
-* Enhanced multi-language support with translation files.
-* Fixed bugs related to user role retrieval.
+= 1.0.11 =
+* Added new options for scheduling notifications and improved email customization.
+* Enhanced plugin compatibility with the latest WordPress version (6.6).
+* Improved overall performance.
 
-= 1.0.6 =
-* Minor bug fixes and performance improvements.
+= 1.0.10 =
+* Introduced a feature to delay notifications by a specified time.
+* Added better control for selecting multiple user roles.
+
+= 1.0.7 =
+* Added multi-role selection for notifications.
+* Introduced customizable email content and subjects.
+* Enhanced scheduling feature.
+* Improved multi-language support.
+* Bug fixes related to user role retrieval.
 
 = 1.0.5 =
-* Initial release of the Superwp Post Notify Users plugin.
+* Initial release of Superwp Post Notify Users.
 
 == License ==
 
@@ -78,4 +84,4 @@ This plugin is licensed under the GPLv3 or later.
 
 == Donate ==
 
-If you enjoy using this plugin and want to support its development, consider [donating](https://www.example.com/donate).
+If you find this plugin helpful and want to support future updates, consider [donating](https://www.example.com/donate).
