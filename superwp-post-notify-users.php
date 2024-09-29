@@ -14,7 +14,7 @@
 <<<<<<< HEAD
  * Version:       1.0.7
 =======
- * Version:       1.0.9
+ * Version:       1.0.10
 >>>>>>> 69bd32851319b8acd6ee9d018c606885311d3e01
  * Author:        Thiarara
  * Author URI:    https://profiles.wordpress.org/thiarara/
