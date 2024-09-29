@@ -11,11 +11,7 @@
  * Plugin Name:   Superwp Post Notify Users
  * Plugin URI:    https://github.com/Thiararapeter/Superwp-Post-Notify-Users
  * Description:   Notifies users with specified roles when a new or edited post is published. You can specify user roles, post types, customize email content, subject, and schedule notifications.
-<<<<<<< HEAD
- * Version:       1.0.7
-=======
  * Version:       1.0.10
->>>>>>> 69bd32851319b8acd6ee9d018c606885311d3e01
  * Author:        Thiarara
  * Author URI:    https://profiles.wordpress.org/thiarara/
  * Text Domain:   superwp-post-notify-users
@@ -82,14 +78,15 @@ function SUPERWPPOS() {
 	return Superwp_Post_Notify_Users::instance();
 }
 
-require 'plugin-update-checker/plugin-update-checker.php';
+//update checker code
+require 'core\includes\push-update\plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://github.com/Thiararapeter/Superwp-Post-Notify-Users',
-	__FILE__,
-	' Superwp-Post-Notify-Users '
-);
+    'https://github.com/Thiararapeter/Superwp-Post-Notify-Users',
+    __FILE__,
+    'Superwp Post Notify Users'
+ );
 
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
