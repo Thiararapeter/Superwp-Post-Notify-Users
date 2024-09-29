@@ -2,8 +2,8 @@
 Contributors: Thiarara
 Tags: notifications, email, user roles, post types, WordPress
 Requires at least: 5.0
-Tested up to: 6.5
-Stable tag: 1.0.8
+Tested up to: 6.6
+Stable tag: 1.0.10
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Donate link: https://www.example.com/donate
