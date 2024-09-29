@@ -78,4 +78,17 @@ function SUPERWPPOS() {
 	return Superwp_Post_Notify_Users::instance();
 }
 
+//update checker code
+require 'core\includes\push-update\plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://github.com/Thiararapeter/Superwp-Post-Notify-Users',
+    __FILE__,
+    'Superwp Post Notify Users'
+ );
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
+
 SUPERWPPOS();
