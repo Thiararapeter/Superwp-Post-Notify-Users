@@ -351,8 +351,13 @@ function superwp_notify_delay_render() {
 add_action('save_post', 'superwp_notify_users_on_post_save', 10, 3);
 
 function superwp_notify_users_on_post_save($post_id, $post, $update) {
-    // Check if this is an auto-save routine or the post is not published yet
+    // Security check to ensure this is not an autosave or revision, and that the post is published
     if (wp_is_post_autosave($post_id) || wp_is_post_revision($post_id) || $post->post_status !== 'publish') {
+        return;
+    }
+
+    // Ensure this does not affect API responses
+    if (defined('DOING_AJAX') && DOING_AJAX || defined('DOING_CRON') && DOING_CRON) {
         return;
     }
 
@@ -370,6 +375,7 @@ function superwp_notify_users_on_post_save($post_id, $post, $update) {
     $roles = get_option('superwp_notify_roles', array());
     $post_types = get_option('superwp_notify_post_types', array());
 
+    // Ensure the post type matches the allowed post types
     if (!in_array($post->post_type, $post_types)) {
         return;
     }
@@ -410,4 +416,5 @@ function superwp_notify_users_on_post_save($post_id, $post, $update) {
     // Log completion of the function
     error_log('superwp_notify_users_on_post_save completed for post ID: ' . $post_id);
 }
+
 endif; // End if class_exists check.
