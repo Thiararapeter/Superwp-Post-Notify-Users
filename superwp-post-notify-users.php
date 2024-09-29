@@ -5,7 +5,7 @@
  * @package       SUPERWPPOS
  * @author        Thiarara
  * @license       gplv3-or-later
- * @version       1.0.7
+ * @version       1.0.8
  *
  * @wordpress-plugin
  * Plugin Name:   Superwp Post Notify Users

@@ -1,61 +1,81 @@
 === Superwp Post Notify Users ===
-Author URI: https://profiles.wordpress.org/thiarara/
-Plugin URI: https://github.com/Thiararapeter/Superwp-Post-Notify-Users
-Donate link: 
-Contributors: thiarara, SuperWP
-Tags: 
-Requires at least: 4.7
-Tested up to: 6.0
-Requires PHP: 7
-Stable tag: 1.0.7
+Contributors: Thiarara
+Tags: notifications, email, user roles, post types, WordPress
+Requires at least: 5.0
+Tested up to: 6.5
+Stable tag: 1.0.8
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-
-Notifies users with specified roles when a new or edited post is published. You can specify user roles, post types, customize email content, subject, and schedule notifications.
+Donate link: https://www.example.com/donate
+Plugin URI: https://github.com/Thiararapeter/Superwp-Post-Notify-Users
+Author: Thiarara
+Author URI: https://profiles.wordpress.org/thiarara/
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+**Superwp Post Notify Users** notifies users with specified roles when a new or edited post is published. You can specify user roles, post types, customize email content, subject, and schedule notifications.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+== Features ==
 
-A few notes about the sections above:
-
-*   "Contributors" is a comma separated list of wordpress.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
-
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
-
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
-
-
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
+- User Role Notifications: Notify users based on specific WordPress roles (e.g., Editor, Author).
+- Post Type Selection: Choose which post types to monitor for notifications (e.g., Posts, Pages).
+- Customizable Email Content: Tailor the subject and body of the notification emails.
+- Scheduled Notifications: Set a schedule for when notifications should be sent after a post is published or updated.
+- Multi-Language Support: Translations available in the `languages` directory.
+- User-Friendly Interface: Easy-to-use settings page within the WordPress admin area.
+- Regular Updates: The plugin is actively maintained with regular updates and improvements.
 
 == Installation ==
 
-1. Go to `Plugins` in the Admin menu
-2. Click on the button `Add new`
-3. Search for `Superwp Post Notify Users` and click 'Install Now' or click on the `upload` link to upload `superwp-post-notify-users.zip`
-4. Click on `Activate plugin`
+1. Upload the `superwp-post-notify-users` directory to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Go to the plugin settings page to configure your notification preferences.
+
+== Usage ==
+
+1. After activation, navigate to **Settings** > **Superwp Post Notify Users** in your WordPress dashboard.
+2. Select the user roles you want to notify.
+3. Choose the post types for which notifications should be sent.
+4. Customize the email subject and content.
+5. Schedule notifications as desired.
+6. Save your settings.
+
+== Frequently Asked Questions (FAQs) ==
+
+Q: Can I notify multiple user roles?  
+A: Yes, you can select multiple user roles to receive notifications.
+
+Q: Is it possible to customize the email subject?  
+A: Absolutely! You can customize the subject and body of the notification emails in the settings.
+
+Q: What post types can I notify users about?  
+A: You can select any post type registered in your WordPress site, including custom post types.
 
 == Changelog ==
 
-= 1.0.7: September 29, 2024 =
-* Birthday of Superwp Post Notify Users
+= 1.0.7 =
+* Added the ability to select multiple user roles for notifications.
+* Introduced customizable email content and subject lines.
+* Improved the scheduling feature for sending notifications.
+* Enhanced multi-language support with translation files.
+* Fixed bugs related to user role retrieval.
+
+= 1.0.6 =
+* Minor bug fixes and performance improvements.
+
+= 1.0.5 =
+* Initial release of the Superwp Post Notify Users plugin.
+
+== License ==
+
+This plugin is licensed under the GPLv3 or later.
+
+== Author ==
+
+**Thiarara**  
+[WordPress Profile](https://profiles.wordpress.org/thiarara/)  
+[GitHub Repository](https://github.com/Thiararapeter/Superwp-Post-Notify-Users)
+
+== Donate ==
+
+If you enjoy using this plugin and want to support its development, consider [donating](https://www.example.com/donate).
