@@ -5,13 +5,13 @@
  * @package       SUPERWPPOS
  * @author        Thiarara
  * @license       gplv3-or-later
- * @version       1.0.8
+ * @version       1.0.7
  *
  * @wordpress-plugin
  * Plugin Name:   Superwp Post Notify Users
  * Plugin URI:    https://github.com/Thiararapeter/Superwp-Post-Notify-Users
  * Description:   Notifies users with specified roles when a new or edited post is published. You can specify user roles, post types, customize email content, subject, and schedule notifications.
- * Version:       1.0.8
+ * Version:       1.0.9
  * Author:        Thiarara
  * Author URI:    https://profiles.wordpress.org/thiarara/
  * Text Domain:   superwp-post-notify-users
