@@ -79,7 +79,7 @@ function SUPERWPPOS() {
 }
 
 //update checker code
-require 'core\includes\push-update\plugin-update-checker.php';
+require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
