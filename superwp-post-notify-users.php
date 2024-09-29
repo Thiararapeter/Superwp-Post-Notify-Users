@@ -85,7 +85,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 $myUpdateChecker = PucFactory::buildUpdateChecker(
     'https://github.com/Thiararapeter/Superwp-Post-Notify-Users',
     __FILE__,
-    'Superwp Post Notify Users'
+    'Superwp-Post-Notify-Users'
  );
 
 //Set the branch that contains the stable release.
