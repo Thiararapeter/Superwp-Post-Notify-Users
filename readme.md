@@ -49,10 +49,10 @@ A: You can select any post type registered in your WordPress site, including cus
 - Enhanced multi-language support with translation files.
 - Fixed bugs related to user role retrieval.
 
-### 1.0.6 (2024-08-15)
+### 1.0.6 (2024-09-15)
 - Minor bug fixes and performance improvements.
 
-### 1.0.5 (2024-07-20)
+### 1.0.5 (2024-09-15)
 - Initial release of the Superwp Post Notify Users plugin.
 
 ## License
